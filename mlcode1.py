@@ -53,3 +53,11 @@ plt.ylabel("Price in 1000s dollars") #set y-axis label
 plt.xlabel("Size in 1000s sqft") #set x-axis label
 plt.legend()
 plt.show()
+
+#house price predictions:
+w2 = 200                         
+b2 = 100    
+x_i = 1.2
+cost_1200sqft = w2 * x_i + b2    
+
+print(f"${cost_1200sqft:.0f} thousand dollars")
